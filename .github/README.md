@@ -2,6 +2,8 @@
 
 An alternative to the built-in [MinMaxSlider](https://docs.unity.cn/ScriptReference/UIElements.MinMaxSlider.html), built to support more intuitive interaction and customization.
 
+![comparison](./img/slider-comparison.gif)
+
 ## Public API
 
 The API and structure for RangeSlider is very similar to [MinMaxSlider](https://docs.unity.cn/ScriptReference/UIElements.MinMaxSlider.html) and is intended to be as close to a drop-in replacement as possible. 
@@ -49,4 +51,4 @@ The API and structure for RangeSlider is very similar to [MinMaxSlider](https://
       ```
       git@github.com:noirb/UIT_RangeSlider.git#v1.0.0
       ```
-4. After installing the package, add the [RangeSlider stylesheet](./UI/RangeSlider.uss) to your Runtime theme.
+4. After installing the package, add the [RangeSlider stylesheet](../UI/RangeSlider.uss) to your Runtime theme.
