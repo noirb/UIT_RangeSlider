@@ -49,3 +49,4 @@ The API and structure for RangeSlider is very similar to [MinMaxSlider](https://
       ```
       git@github.com:noirb/UIT_RangeSlider.git#v1.0.0
       ```
+4. After installing the package, add the [RangeSlider stylesheet](./UI/RangeSlider.uss) to your Runtime theme.
