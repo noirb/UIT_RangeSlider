@@ -1,0 +1,99 @@
+.nb-range-slider {
+}
+
+/* text label */
+.nb-range-slider__label {
+}
+
+/* the area containing the slider itself (not including the text label) */
+.nb-range-slider__input {
+}
+
+/* main background/container of the slider */
+.nb-range-slider__track {
+    position: absolute;
+    top: 50%;
+    background-color: #7E7E7E;
+    border-color: #646464;
+    border-width: 1px;
+    height: 12px;
+    width: 100%;
+    margin-top: -6px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/* the "selected" region between the two handles */
+.nb-range-slider__fill {
+    background-color: #005d98;
+    height: 10px;
+    
+    margin-top: -1px;
+    justify-content: center;
+}
+
+.nb-range-slider__fill:hover {
+    background-color: #056faf;
+}
+
+/* invisible container for optional markers added to the slider */
+.nb-range-slider__marker-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: 14px;
+    top: 0px;
+    overflow: hidden;
+}
+
+/* markers which are just assigned to a single value */
+.nb-range-slider__single-marker
+{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    bottom: 0px;
+    margin-left: -1px;
+}
+
+/* markers which cover a range of values */
+.nb-range-slider__range-marker
+{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    opacity: 0.25;
+    border-left-width: 1px;
+    border-left-color: #aeaeae;
+    border-right-width: 1px;
+    border-right-color: #797979;
+}
+
+/* common class used by both handles */
+.nb-range-slider__handle {
+    position: absolute;
+    background-color: #eeeeee;
+    border-color: #646464;
+    border-width: 1px;
+    height: 24px;
+    width: 14px;
+    margin-top: -8px;
+}
+
+/* overrides specifically for the left/lower-value handle */
+.nb-range-slider__lower-handle {
+    margin-left: -14px;
+}
+
+.nb-range-slider__lower-handle:hover {
+    background-color: #aabbdd;
+}
+
+/* overrides specifically for the right/upper-value handle */
+.nb-range-slider__upper-handle {
+    margin-right: -14px;
+}
+
+.nb-range-slider__upper-handle:hover {
+    background-color: #aabbdd;
+}

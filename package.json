@@ -1,0 +1,13 @@
+{
+    "name": "com.nb.uit_rangeslider",
+    "version": "1.0.0",
+    "displayName": "UIT RangeSlider",
+    "description": "An improved RangeSlider for UIToolkit",
+    "unity": "2021.1",
+    "author": {
+        "name": "NB",
+        "email": "noirb@users.noreply.github.com"
+    },
+    "keywords": [
+    ]
+}
